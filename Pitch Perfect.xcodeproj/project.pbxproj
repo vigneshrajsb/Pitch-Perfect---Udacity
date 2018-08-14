@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		502D049921228EBB00B8CEAC /* SoundViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D049821228EBB00B8CEAC /* SoundViewController+Audio.swift */; };
+		504DAC00211D2DC200664158 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504DABFF211D2DC200664158 /* SoundViewController.swift */; };
 		50918CB6211BF9F00088EF2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50918CB5211BF9F00088EF2F /* AppDelegate.swift */; };
-		50918CB8211BF9F00088EF2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50918CB7211BF9F00088EF2F /* ViewController.swift */; };
+		50918CB8211BF9F00088EF2F /* RecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50918CB7211BF9F00088EF2F /* RecordingViewController.swift */; };
 		50918CBB211BF9F00088EF2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50918CB9211BF9F00088EF2F /* Main.storyboard */; };
 		50918CBD211BF9F20088EF2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50918CBC211BF9F20088EF2F /* Assets.xcassets */; };
 		50918CC0211BF9F20088EF2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50918CBE211BF9F20088EF2F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		502D049821228EBB00B8CEAC /* SoundViewController+Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SoundViewController+Audio.swift"; sourceTree = "<group>"; };
+		504DABFF211D2DC200664158 /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 		50918CB2211BF9F00088EF2F /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50918CB5211BF9F00088EF2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50918CB7211BF9F00088EF2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50918CB7211BF9F00088EF2F /* RecordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewController.swift; sourceTree = "<group>"; };
 		50918CBA211BF9F00088EF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50918CBC211BF9F20088EF2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50918CBF211BF9F20088EF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				50918CB5211BF9F00088EF2F /* AppDelegate.swift */,
-				50918CB7211BF9F00088EF2F /* ViewController.swift */,
+				50918CB7211BF9F00088EF2F /* RecordingViewController.swift */,
+				504DABFF211D2DC200664158 /* SoundViewController.swift */,
+				502D049821228EBB00B8CEAC /* SoundViewController+Audio.swift */,
 				50918CB9211BF9F00088EF2F /* Main.storyboard */,
 				50918CBC211BF9F20088EF2F /* Assets.xcassets */,
 				50918CBE211BF9F20088EF2F /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50918CB8211BF9F00088EF2F /* ViewController.swift in Sources */,
+				50918CB8211BF9F00088EF2F /* RecordingViewController.swift in Sources */,
+				504DAC00211D2DC200664158 /* SoundViewController.swift in Sources */,
 				50918CB6211BF9F00088EF2F /* AppDelegate.swift in Sources */,
+				502D049921228EBB00B8CEAC /* SoundViewController+Audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
