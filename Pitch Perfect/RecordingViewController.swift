@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RecordingViewController.swift
 //  Pitch Perfect
 //
 //  Created by Vigneshraj Sekar Babu on 8/8/18.
