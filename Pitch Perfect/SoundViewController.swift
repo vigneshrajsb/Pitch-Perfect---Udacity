@@ -32,6 +32,7 @@ class SoundViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureUI()
         //print(recordedAudioURL.absoluteString)
         setupAudio()
     }
@@ -64,6 +65,20 @@ class SoundViewController: UIViewController {
             playSound(reverb: true)
         }
         configureUI(.playing)
+    }
+    
+    //MARK: - ConfigureUI
+    
+    func configureUI() {
+        slowButton.imageView?.contentMode = .scaleAspectFit
+        fastButton.imageView?.contentMode = .scaleAspectFit
+        lowPitchButton.imageView?.contentMode = .scaleAspectFit
+        hightPitchButton.imageView?.contentMode = .scaleAspectFit
+        echoButton.imageView?.contentMode = .scaleAspectFit
+        reverbButton.imageView?.contentMode = .scaleAspectFit
+        stopButton.imageView?.contentMode = .scaleAspectFit
+
+        
     }
     
 }
